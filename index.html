@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="http://nickblack.pro/send.php" method="POST">
+        Имя:<br>
+        <input type="text" name="fname" required>
+        <br>
+        Фамилия:<br>
+        <input type="text" name="sname">
+        <br>
+        Возраст:<br>
+        <input type="number" min="1" max="100" name="age">
+        <br>
+        Пол:<br>
+        <input type="radio" name="gender" id="male"><label for="male">Мужчина</label>
+        <input type="radio" name="gender" id="female"><label for="female">Женщина</label>
+        <br>
+        Почта:<br>
+        <input type="email" name="mail">
+        <br>
+        Дата рождения:<br>
+        <input type="date" name="bday">
+        <br>
+        Телефон:<br>
+        <input type="tel" name="phone" required>
+        <br>
+        Email получателя:<br>
+        <input type="email" name="mymail" value="kymec327@gmail.com" readonly required>
+        <br>
+        <input type="submit" value="Отослать">
+    </form>
+    
+</body>
+</html>
